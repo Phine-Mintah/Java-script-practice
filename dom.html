@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <img src="ligth-shot.jpg" onmouseover="bg()" />
+    <button onclick="eve()" onclick="changeBack()">click me</button>
+
+    <script>
+        const image = document.getElementsByTagName("img")[0];
+
+        function eve(){
+            image.src = "black-hole-image.jpg"
+            image.style.height = "15rem";
+            alert("event active")
+        }
+
+        const image2 = document.getElementsByTagName("img")[0];
+        function changeBack() {
+            image2.src = "ligth-shot.jpg";
+            image2.style.height = "20rem";
+        }
+
+        const color = document.getElementsByTagName("img")[0];
+        function bg() {
+            color.style.backgroundColor = "red"
+            color.style.backgroundSize = "500rem"
+        }
+
+        // var el = document.getElementsByTagName(img);
+    </script>
+</body>
+</html>

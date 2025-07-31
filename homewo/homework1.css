@@ -1,0 +1,69 @@
+body{
+    background-color: yellow;
+    /* color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ .container{
+    background-color: #fff;
+    padding: 3rem;
+    padding-top: 2rem;
+    border: red 2px solid;
+    overflow: auto;
+    border-radius: 1rem;
+    
+ }
+ 
+ .delete-btn{
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    /* cursor: pointer; */
+    margin-left: 1rem;
+ }
+
+    .delete-btn:hover{
+        background-color: #fff;
+        color: red;
+        border: 1px solid red;
+    }
+
+    .edit-btn{
+      background-color: rgb(43, 255, 0);
+      color: white;
+      width: 3rem;
+      border: none;
+      padding: 0.5rem;
+      border-radius: 0.3rem;
+    }
+
+    #addTask{
+      background-color: blue;
+      color: #fff;
+      /* height: 1.6rem; */
+      padding: 0.3rem;
+      width: 3rem;
+      border: solid whitesmoke 2px;
+      border-radius: 0.4rem;
+    }
+
+li{
+   margin-bottom: 0.5rem;
+}    
+
+ .p{
+    display: none;
+    margin-top: 1rem;
+ }
+
+ .completed {
+    text-decoration: line-through;
+    color: gray;
+    border: 1px solid gray;
+  }
+
