@@ -42,11 +42,11 @@ else {
  2. Write an if else statement to check if the person gets a discount
  3. If yes
     */
-    let age = 12
+    let ageOfPerson = 12
     let isSeniorCitizen = true;
     let isWeekend = true;
 
-    if (( age < 12 || isSeniorCitizen) && isWeekend === true) {
+    if (( ageOfPerson < 12 || isSeniorCitizen) && isWeekend === true) {
         console.log("discount applied");
     }
     else {
@@ -195,3 +195,25 @@ function vuviv(number) {
     }
 
     console.log(vuviv(2));
+
+    let h = "6fyd65drhtegdghmytdy kkjkkk"
+
+    // create a variable called age
+    let age = 22
+
+    // create two variables x and y assign two values
+    let x = 9
+
+    // use let to declare a variable that can be reassigned and const for one that can't be reassigned
+
+    let j9 = "this is a variable"
+    const k9 = "this is a constant"
+
+    // write a function called greet that say hello, welcome when called
+    //  create an object student with properties name, age and course and print the student and print the student's name
+    // create an object car with a method start that prints car started when the method is called
+    // write an if else statement that checks if a number stored in a variable is positive, negative or zero
+
+    // create an object called student with properties name and age add a method introduce that prints Hi my name is [name] and I am [age] years old
+
+    document.getElementsByClassName("change")[0].innerHTML = "goskjwu"

@@ -57,7 +57,7 @@ console.log(addTwoNumbers(4, 4));
 let age = prompt("Enter your age");
 console.log(age);
 
-let close = confirm("Do you want to close this page?");
+let close = confirm("Do you want to close this page?"); 
 console.log(close);
 
 const arrowFunction=(age)=>{
@@ -98,5 +98,18 @@ math(1089, 5, 890);
 console.log(math(1089, 5, 890));
 
 function strong(ed){
-
+    const fun = 67 + ed;
+    console.log("The answer is " + fun);
+    // return fun;
 }
+
+strong(87*6);
+
+function moreMath(tip){
+    let ctyfi = 6870 + tip;
+    return ctyfi
+    
+}
+
+moreMath(569);
+console.log(moreMath(569));
